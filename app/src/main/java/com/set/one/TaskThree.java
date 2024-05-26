@@ -34,7 +34,7 @@ public class TaskThree extends Activity {
 
         b3.setOnLongClickListener(v -> {
             // TODO Auto-generated method stub
-            Toast.makeText(getApplicationContext(), "You tapped me for so long!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "You tapped me for so long!!", Toast.LENGTH_LONG).show();
             return false;
         });
 

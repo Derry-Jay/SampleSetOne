@@ -4,10 +4,16 @@
     <string name="settings">Settings</string>
     <string name="click_me">Click Me</string>
     <string name="show_name">Show Name</string>
+    <string name="task_five">Calculator</string>
     <string name="enter_name">Enter Name</string>
-    <string name="hello_world">Hello World!</string>
+    <string name="task_two">Hello World!</string>
+    <string name="task_six">MultiThreading</string>
+    <string name="task_eight">JSON Parsing</string>
     <string name="long_click_me">Long Click Me</string>
+    <string name="au_url">http://annauniv.edu/</string>
+    <string name="task_seven">Writing Data to SD Card</string>
     <string name="task_four">GPS Location Information</string>
+    <string name="task_one">GUI Components, Fonts, and Colors</string>
     <string name="click_or_long_click">Click or Long Click Me</string>
     <string name="task_three">Layout Manager and Event Listener</string>
 </resources>

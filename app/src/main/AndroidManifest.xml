@@ -30,6 +30,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".TaskOne"
+            android:exported="true" />
+        <activity
             android:name=".TaskTwo"
             android:exported="true" />
         <activity
@@ -37,6 +40,18 @@
             android:exported="true" />
         <activity
             android:name=".TaskFour"
+            android:exported="true" />
+        <activity
+            android:name=".TaskFive"
+            android:exported="true" />
+        <activity
+            android:name=".TaskSix"
+            android:exported="true" />
+        <activity
+            android:name=".TaskSeven"
+            android:exported="true" />
+        <activity
+            android:name=".TaskEight"
             android:exported="true" />
     </application>
 

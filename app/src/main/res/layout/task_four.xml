@@ -89,25 +89,6 @@
         android:layout_marginTop="18dp"
         android:text="Provider:"
         android:textStyle="bold" />
-
-    <!--    <TextView-->
-    <!--        android:id="@+id/p4"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_below="@id/h4"-->
-    <!--        android:layout_marginTop="12dp"-->
-    <!--        android:lineSpacingExtra="@dimen/line_spacing"-->
-    <!--        android:text="@string/p4" />-->
-
-    <!--    <TextView-->
-    <!--        android:id="@+id/p5"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_below="@id/h5"-->
-    <!--        android:layout_marginTop="12dp"-->
-    <!--        android:lineSpacingExtra="@dimen/line_spacing"-->
-    <!--        android:text="@string/p5" />-->
-
 </RelativeLayout>
 
     <!--    <ScrollView -->

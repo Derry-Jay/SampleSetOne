@@ -3,23 +3,18 @@
 
     <item
 
-        android:title="Settings"
         android:id="@+id/settings"
-        />
+        android:title="Settings" />
 
     <item
 
-        android:title="About"
         android:id="@+id/about"
-        />
+        android:title="About" />
 
     <item
 
-        android:title="Starred message"
         android:id="@+id/message"
-        />
-
-
+        android:title="Starred message" />
 
 
 </menu>

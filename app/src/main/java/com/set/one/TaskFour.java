@@ -10,6 +10,7 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -90,8 +91,11 @@ public class TaskFour extends Activity implements LocationListener {
         lat.setText("Latitude: " + location.getLatitude());
         lon.setText("Longitude: " + location.getLongitude());
         time.setText("Time: " + formatter.format(calendar.getTime()));
+        accuracy.setVisibility(location.hasAccuracy() ? View.VISIBLE : View.GONE);
         accuracy.setText("Accuracy: " + location.getAccuracy());
+        height.setVisibility(location.hasAltitude() ? View.VISIBLE : View.GONE);
         height.setText("Height: " + ht + " m");
+        bearing.setVisibility(location.hasBearing() ? View.VISIBLE : View.GONE);
         bearing.setText("Bearing: " + location.getBearing());
         speed.setText("Speed: " + kmph + " Km/hr");
         prv.setText("Provider: " + location.getProvider());
